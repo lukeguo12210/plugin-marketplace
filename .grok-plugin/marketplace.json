@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "dca8da784e876cbb8e81bd98cb5b2b87323449ca"
+        "sha": "95fdc4581f2f8becba437e8c95d416af2dc94605"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea"
+        "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -63,7 +63,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/obra/superpowers.git",
-        "sha": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797"
+        "sha": "5bf4e78011075bcfc0dc295f0724994cd123ee71"
       },
       "homepage": "https://github.com/obra/superpowers",
       "keywords": ["superpowers"]
@@ -141,7 +141,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "572357b791a91a5138c050e08eb718b150be21cb"
+        "sha": "d40289a47fda4f4efd0b5fef0c599cc64432be66"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
@@ -154,7 +154,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/netlify/context-and-tools.git",
-        "sha": "b79c1e58e82ecb319f1f213727f65ea10a5a69a5"
+        "sha": "0830047fec55c33ea3f360b528c2039b9d96d97f"
       },
       "homepage": "https://github.com/netlify/context-and-tools",
       "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
@@ -180,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "f74a51c9aaec87a2e65c9121753b63fb42203d96"
+        "sha": "172920731eedf414e9b22ae60017d9a5b6c9f81f"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -213,13 +213,26 @@
       "domains": ["tavily.com", "www.tavily.com", "app.tavily.com", "docs.tavily.com"]
     },
     {
+      "name": "octen",
+      "description": "Live web and news search, broad multi-angle search, and clean URL extraction via Octen's hosted MCP server. Connects over HTTP and authorizes with OAuth in the browser — nothing to install, no API key to paste.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Octen-Team/octen-grok-plugin.git",
+        "sha": "5310f0d1225f37e98cc49f14d3caaa1b4dfb96c3"
+      },
+      "homepage": "https://octen.ai",
+      "keywords": ["octen", "octen search", "octen ai"],
+      "domains": ["octen.ai", "docs.octen.ai"]
+    },
+    {
       "name": "railway",
       "description": "Railway deployment platform integration (MCP server + skill). Create projects, provision services and databases, deploy code, manage environments, variables, volumes, object storage buckets, and feature flags, configure domains, troubleshoot build failures, and check status and metrics directly from Grok.",
       "category": "deployment",
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
+        "sha": "ca21b2a1f9237163291a3a936b1cbb86752f4895",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -233,7 +246,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "68382523846ea5bfad75ba1ef58dc5db031d0a5a",
+        "sha": "a682cd5788a6fbcc64dadf872ea91d1f0da1908c",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -274,7 +287,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/cursor/plugins.git",
-        "sha": "2b8ae2ee306f823d54879d3da7f8496b73c31d5d",
+        "sha": "12d587dfb20741cafc376c42c696c5f6e2a64487",
         "path": "pstack"
       },
       "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
@@ -332,13 +345,15 @@
       "homepage": "https://loadout.aident.ai",
       "keywords": ["aident", "aident loadout", "loadout"],
       "domains": ["aident.ai", "loadout.aident.ai", "docs.aident.ai"]
+    },
+    {
       "name": "bruin",
       "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/bruin-eng/agent-skills.git",
-        "sha": "8e1435ec45a9d1f1df8a89104b01112db0feaca2"
+        "sha": "311bac60c8fc9d3a158dbce866c653c0823c97a7"
       },
       "homepage": "https://github.com/bruin-eng/agent-skills",
       "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
@@ -363,10 +378,23 @@
       "source": {
         "source": "url",
         "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
-        "sha": "56c61c9ee79a8df1a98822309c04847a57f56000"
+        "sha": "22ab18dfb50a5d7e3bdcf471c14076a5534eae4e"
       },
       "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
       "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
+      "name": "helena",
+      "description": "Helena is an AI marketer that learns your business and plans, launches, and optimizes campaigns across SEO, ads, social, and email.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/EnrichLabsAI/helena-grok-plugin.git",
+        "sha": "9b71516e006144d323f138f1785f55123ec51931"
+      },
+      "homepage": "https://enrichlabs.ai",
+      "keywords": ["helena", "enrich labs", "helena ai marketer", "helena marketing ai agent", "helena autonomous marketer", "helena marketing"],
+      "domains": ["enrichlabs.ai", "agent.enrichlabs.ai"]
     }
   ]
 }
